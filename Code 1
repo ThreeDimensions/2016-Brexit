@@ -65,7 +65,7 @@ function updateHeader() {
 var headerobserver = new MutationObserver(updateHeader);
 headerobserver.observe(document.documentElement, { childList: true, subtree: true });
 
-HistHexcolour=["#1131a9","#FFD600","#DDDDDD","#999999"]; HistName=["Leave","Remain","Valid Votes"," Invalid Votes"]; HistEV=[407,244,0,0]; HistPV=["17,410,742","16,141,241","33,551,983","25,359"]; HistPVP=["51.9%","48.1%","99.92%","0.08%"];
+HistHexcolour=["#0A53A6","#FEC420","#DDDDDD","#999999"]; HistName=["Leave","Remain","Valid Votes"," Invalid Votes"]; HistEV=[407,244,0,0]; HistPV=["17,410,742","16,141,241","33,551,983","25,359"]; HistPVP=["51.9%","48.1%","99.92%","0.08%"];
 
 RecReading=true
 
